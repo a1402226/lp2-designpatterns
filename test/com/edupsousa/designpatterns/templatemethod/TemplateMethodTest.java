@@ -15,7 +15,7 @@ public class TemplateMethodTest {
 	
 	@Test
 	public void testarFormatoSubclasse() {
-		SubClasseQueAlteraTemplateMethod objeto = new SubClasseQueAlteraTemplateMethod();
+		ClasseComTemplateMethod objeto = new SubClasseQueAlteraTemplateMethod();
 		
 		assertEquals("Cabeçalho\nMensagem\nRodapé", objeto.metodoTemplate("Mensagem"));
 	}
